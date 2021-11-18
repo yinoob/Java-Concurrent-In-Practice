@@ -8,6 +8,6 @@ public class NewThread {
 
     public static void main(String[] args){
         NewThreadExtend newThreadExtend = new NewThreadExtend();
-        newThreadExtend.run();
+        newThreadExtend.start();
     }
 }
