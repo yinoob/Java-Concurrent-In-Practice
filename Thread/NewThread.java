@@ -1,3 +1,5 @@
+package Thread;
+
 public class NewThread {
     public static class NewThreadExtend extends Thread{
         @Override

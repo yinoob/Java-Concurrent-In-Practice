@@ -1,3 +1,5 @@
+package Thread;
+
 public class NewThread1 {
     public static class NewThreadRunnable implements Runnable{
         @Override
