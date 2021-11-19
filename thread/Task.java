@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 public class Task implements Callable<Integer> {
     @Override
     public Integer call() throws Exception{
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         return 2;
     }
 
