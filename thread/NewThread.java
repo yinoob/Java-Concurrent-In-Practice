@@ -1,4 +1,4 @@
-package Thread;
+package thread;
 
 public class NewThread {
     public static class NewThreadExtend extends Thread{

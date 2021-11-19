@@ -1,4 +1,4 @@
-package Thread;
+package thread;
 
 public class NewThread1 {
     public static class NewThreadRunnable implements Runnable{
