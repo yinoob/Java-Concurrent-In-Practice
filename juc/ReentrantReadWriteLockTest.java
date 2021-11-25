@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public static class ReentrantReadWriteLockTest {
+public class ReentrantReadWriteLockTest {
     private ArrayList<String> array = new ArrayList<String>();
 
     private final ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
@@ -35,6 +35,9 @@ public static class ReentrantReadWriteLockTest {
             return array.get(index);
         }finally {
             readLock.unlock();
+
+
+
         }
     }
 }
